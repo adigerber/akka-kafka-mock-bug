@@ -1,0 +1,20 @@
+plugins {
+    id 'scala'
+    id 'application'
+}
+
+application {
+    mainClass = 'ex.Test'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.scala-lang:scala-library:2.13.7'
+    implementation 'com.typesafe.akka:akka-actor_2.13:2.6.17'
+    implementation 'com.typesafe.akka:akka-slf4j_2.13:2.6.17'
+    implementation 'com.typesafe.akka:akka-stream_2.13:2.6.17'
+    implementation 'com.typesafe.akka:akka-stream-kafka_2.13:2.1.1'
+}
