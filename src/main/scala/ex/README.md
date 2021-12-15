@@ -24,3 +24,5 @@ sudo cpupower frequency-info
 # Note the possible frequencies under "current policy: frequency should be within ... and ..."
 sudo cpupower frequency-set -u 400 # 400Mhz is the lowest I can go
 ```
+
+Run with `./gradlew run`.
